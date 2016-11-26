@@ -19,7 +19,7 @@
 		FC87C9261DE392E1009E7338 /* ProjectTangoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC87C9251DE392E1009E7338 /* ProjectTangoUITests.swift */; };
 		FC96F9501DE9929A00060785 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC96F94F1DE9929A00060785 /* GoogleService-Info.plist */; };
 		FC96F9521DE9930C00060785 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC96F9511DE9930C00060785 /* HomeVC.swift */; };
-		FC96F9561DE99A5900060785 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC96F9551DE99A5900060785 /* LoginVC.swift */; };
+		FC96F9561DE99A5900060785 /* LoginPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC96F9551DE99A5900060785 /* LoginPageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,7 @@
 		FC96F94E1DE98EE300060785 /* ProjectTango.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProjectTango.entitlements; sourceTree = "<group>"; };
 		FC96F94F1DE9929A00060785 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FC96F9511DE9930C00060785 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		FC96F9551DE99A5900060785 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		FC96F9551DE99A5900060785 /* LoginPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				FC96F9511DE9930C00060785 /* HomeVC.swift */,
-				FC96F9551DE99A5900060785 /* LoginVC.swift */,
+				FC96F9551DE99A5900060785 /* LoginPageVC.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -397,7 +397,7 @@
 			files = (
 				FC71504A1DE9813A007046D9 /* User.swift in Sources */,
 				360D1B591DE9719300DB26BC /* NetworkManager.swift in Sources */,
-				FC96F9561DE99A5900060785 /* LoginVC.swift in Sources */,
+				FC96F9561DE99A5900060785 /* LoginPageVC.swift in Sources */,
 				FC96F9521DE9930C00060785 /* HomeVC.swift in Sources */,
 				FC7150481DE9811C007046D9 /* UserManager.swift in Sources */,
 				FC87C9061DE392E1009E7338 /* AppDelegate.swift in Sources */,
