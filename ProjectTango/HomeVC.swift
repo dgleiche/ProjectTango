@@ -21,7 +21,7 @@ class HomeVC: UIViewController {
         if let userManager = UserManager.sharedInstance {
             print(userManager.currentUser.name)
         } else {
-            let loginPage = self.storyboard?.instantiateViewController(withIdentifier: "loginVC") as! LoginVC
+            let loginPage = self.storyboard?.instantiateViewController(withIdentifier: "loginVC") as! SignInVC
             self.tabBarController?.present(loginPage, animated: true, completion: nil)
         }
     }

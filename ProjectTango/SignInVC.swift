@@ -1,5 +1,5 @@
 //
-//  LoginPageVC.swift
+//  SignInVC.swift
 //  ProjectTango
 //
 //  Created by Neal Soni on 11/25/16.
@@ -10,7 +10,7 @@ import UIKit
 import Alamofire
 import Firebase
 
-class LoginPageVC: UIViewController, GIDSignInDelegate, GIDSignInUIDelegate {
+class SignInVC: UIViewController, GIDSignInDelegate, GIDSignInUIDelegate {
     
     @IBOutlet var pageVCIndicator: UIPageControl!
     
