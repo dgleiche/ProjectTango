@@ -4,4 +4,6 @@ use_frameworks!
 
 target 'ProjectTango' do
 pod 'Alamofire'
+pod 'Firebase/Auth'
+pod 'GoogleSignIn'
 end
