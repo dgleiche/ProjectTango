@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36362E4A1DE949450098C572 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36362E491DE949450098C572 /* loginVC.swift */; };
+		36362E4C1DE94DB30098C572 /* Graphics in Resources */ = {isa = PBXBuildFile; fileRef = 36362E4B1DE94DB30098C572 /* Graphics */; };
 		FC87C9061DE392E1009E7338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC87C9051DE392E1009E7338 /* AppDelegate.swift */; };
 		FC87C9081DE392E1009E7338 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC87C9071DE392E1009E7338 /* ViewController.swift */; };
 		FC87C90B1DE392E1009E7338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC87C9091DE392E1009E7338 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36362E491DE949450098C572 /* loginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
+		36362E4B1DE94DB30098C572 /* Graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Graphics; path = ProjectTango/Graphics; sourceTree = "<group>"; };
 		FC87C9021DE392E1009E7338 /* ProjectTango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectTango.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC87C9051DE392E1009E7338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC87C9071DE392E1009E7338 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 		FC87C8F91DE392E1009E7338 = {
 			isa = PBXGroup;
 			children = (
+				36362E4B1DE94DB30098C572 /* Graphics */,
 				FC87C9041DE392E1009E7338 /* ProjectTango */,
 				FC87C9191DE392E1009E7338 /* ProjectTangoTests */,
 				FC87C9241DE392E1009E7338 /* ProjectTangoUITests */,
@@ -100,6 +105,7 @@
 				FC87C9051DE392E1009E7338 /* AppDelegate.swift */,
 				FC87C9071DE392E1009E7338 /* ViewController.swift */,
 				FC87C9091DE392E1009E7338 /* Main.storyboard */,
+				36362E491DE949450098C572 /* loginVC.swift */,
 				FC87C90C1DE392E1009E7338 /* Assets.xcassets */,
 				FC87C90E1DE392E1009E7338 /* LaunchScreen.storyboard */,
 				FC87C9111DE392E1009E7338 /* Info.plist */,
@@ -236,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC87C9101DE392E1009E7338 /* LaunchScreen.storyboard in Resources */,
+				36362E4C1DE94DB30098C572 /* Graphics in Resources */,
 				FC87C90D1DE392E1009E7338 /* Assets.xcassets in Resources */,
 				FC87C90B1DE392E1009E7338 /* Main.storyboard in Resources */,
 			);
@@ -263,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC87C9081DE392E1009E7338 /* ViewController.swift in Sources */,
+				36362E4A1DE949450098C572 /* loginVC.swift in Sources */,
 				FC87C9061DE392E1009E7338 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +522,7 @@
 				FC87C92C1DE392E1009E7338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC87C92D1DE392E1009E7338 /* Build configuration list for PBXNativeTarget "ProjectTangoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				FC87C92F1DE392E1009E7338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC87C9301DE392E1009E7338 /* Build configuration list for PBXNativeTarget "ProjectTangoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				FC87C9321DE392E1009E7338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
