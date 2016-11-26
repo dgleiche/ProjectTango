@@ -7,19 +7,20 @@
 //
 
 import UIKit
+import Alamofire
 
-class loginVC: UIViewController {
-    @IBOutlet var usernameField: UITextField!
-    @IBOutlet var passwordField: UITextField!
-    @IBOutlet var loginButton: UIButton!
-    @IBOutlet var loadingView: UIActivityIndicatorView!
-    @IBOutlet var LogoVC: UIImageView!
+
+class loginVC: UIViewController, GIDSignInUIDelegate, GIDSignInDelegate, UIPageViewControllerDataSource, UIPageViewControllerDelegate  {
+    
+    @IBOutlet var pageVCIndicator: UIPageControl!
+    
+    @IBOutlet var signInButton: GIDSignInButton!
+    
+    @IBOutlet var pageVCHolder: UIView!
     
     override func viewDidLoad() {
         //self.view.backgroundColor = UIColor(red:0.17, green:0.28, blue:0.89, alpha:1.0)
-        usernameField.attributedPlaceholder = NSAttributedString(string:"username", attributes:[NSForegroundColorAttributeName: UIColor.white])
-        passwordField.attributedPlaceholder = NSAttributedString(string:"password", attributes:[NSForegroundColorAttributeName: UIColor.white])
-        super.viewDidLoad()
+       
 
         // Do any additional setup after loading the view.
     }
@@ -28,7 +29,7 @@ class loginVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
 
     /*
     // MARK: - Navigation

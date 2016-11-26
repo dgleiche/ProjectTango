@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360D1B571DE9712000DB26BC /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360D1B561DE9712000DB26BC /* UserManager.swift */; };
+		360D1B591DE9719300DB26BC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360D1B581DE9719300DB26BC /* NetworkManager.swift */; };
 		36362E4A1DE949450098C572 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36362E491DE949450098C572 /* loginVC.swift */; };
-		36362E4C1DE94DB30098C572 /* Graphics in Resources */ = {isa = PBXBuildFile; fileRef = 36362E4B1DE94DB30098C572 /* Graphics */; };
 		CDA3C096E3896B9C9988BCBA /* Pods_ProjectTango.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D184CAD791246C094A0860 /* Pods_ProjectTango.framework */; };
 		FC87C9061DE392E1009E7338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC87C9051DE392E1009E7338 /* AppDelegate.swift */; };
 		FC87C9081DE392E1009E7338 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC87C9071DE392E1009E7338 /* ViewController.swift */; };
@@ -38,8 +39,9 @@
 
 /* Begin PBXFileReference section */
 		18D184CAD791246C094A0860 /* Pods_ProjectTango.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectTango.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		360D1B561DE9712000DB26BC /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		360D1B581DE9719300DB26BC /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		36362E491DE949450098C572 /* loginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
-		36362E4B1DE94DB30098C572 /* Graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Graphics; path = ProjectTango/Graphics; sourceTree = "<group>"; };
 		6D7B00680A30087D79EE4CCD /* Pods-ProjectTango.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTango.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTango/Pods-ProjectTango.debug.xcconfig"; sourceTree = "<group>"; };
 		A0492990DC45681EA105F45F /* Pods-ProjectTango.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTango.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTango/Pods-ProjectTango.release.xcconfig"; sourceTree = "<group>"; };
 		FC87C9021DE392E1009E7338 /* ProjectTango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectTango.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +93,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		360D1B4F1DE9644F00DB26BC /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Graphics;
+			path = ProjectTango;
+			sourceTree = "<group>";
+		};
+		360D1B531DE964EE00DB26BC /* Controlers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controlers;
+			sourceTree = "<group>";
+		};
+		360D1B541DE964F600DB26BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36362E491DE949450098C572 /* loginVC.swift */,
+				FC87C9071DE392E1009E7338 /* ViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		360D1B551DE9650400DB26BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				360D1B561DE9712000DB26BC /* UserManager.swift */,
+				360D1B581DE9719300DB26BC /* NetworkManager.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		D4B55BCD460267875851CF68 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +138,7 @@
 		FC87C8F91DE392E1009E7338 = {
 			isa = PBXGroup;
 			children = (
-				36362E4B1DE94DB30098C572 /* Graphics */,
+				360D1B4F1DE9644F00DB26BC /* Graphics */,
 				FC87C9041DE392E1009E7338 /* ProjectTango */,
 				FC87C9191DE392E1009E7338 /* ProjectTangoTests */,
 				FC87C9241DE392E1009E7338 /* ProjectTangoUITests */,
@@ -126,10 +161,11 @@
 		FC87C9041DE392E1009E7338 /* ProjectTango */ = {
 			isa = PBXGroup;
 			children = (
+				360D1B531DE964EE00DB26BC /* Controlers */,
 				FC87C9051DE392E1009E7338 /* AppDelegate.swift */,
-				FC87C9071DE392E1009E7338 /* ViewController.swift */,
+				360D1B551DE9650400DB26BC /* Models */,
+				360D1B541DE964F600DB26BC /* Views */,
 				FC87C9091DE392E1009E7338 /* Main.storyboard */,
-				36362E491DE949450098C572 /* loginVC.swift */,
 				FC87C90C1DE392E1009E7338 /* Assets.xcassets */,
 				FC87C90E1DE392E1009E7338 /* LaunchScreen.storyboard */,
 				FC87C9111DE392E1009E7338 /* Info.plist */,
@@ -269,7 +305,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC87C9101DE392E1009E7338 /* LaunchScreen.storyboard in Resources */,
-				36362E4C1DE94DB30098C572 /* Graphics in Resources */,
 				FC87C90D1DE392E1009E7338 /* Assets.xcassets in Resources */,
 				FC87C90B1DE392E1009E7338 /* Main.storyboard in Resources */,
 			);
@@ -346,6 +381,8 @@
 			files = (
 				FC87C9081DE392E1009E7338 /* ViewController.swift in Sources */,
 				36362E4A1DE949450098C572 /* loginVC.swift in Sources */,
+				360D1B591DE9719300DB26BC /* NetworkManager.swift in Sources */,
+				360D1B571DE9712000DB26BC /* UserManager.swift in Sources */,
 				FC87C9061DE392E1009E7338 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
