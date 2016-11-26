@@ -1,5 +1,5 @@
 //
-//  loginVC.swift
+//  LoginVC.swift
 //  ProjectTango
 //
 //  Created by Neal Soni on 11/25/16.
