@@ -1,1231 +1,625 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>06F33BCB4F6329DD819CACC9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>18D184CAD791246C094A0860</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>18D184CAD791246C094A0860</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_ProjectTango.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>36362E491DE949450098C572</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>loginVC.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>36362E4A1DE949450098C572</key>
-		<dict>
-			<key>fileRef</key>
-			<string>36362E491DE949450098C572</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>36362E4B1DE94DB30098C572</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder</string>
-			<key>name</key>
-			<string>Graphics</string>
-			<key>path</key>
-			<string>ProjectTango/Graphics</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>36362E4C1DE94DB30098C572</key>
-		<dict>
-			<key>fileRef</key>
-			<string>36362E4B1DE94DB30098C572</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5D698054F2FFA794DE238ED7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ProjectTango/Pods-ProjectTango-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>6D7B00680A30087D79EE4CCD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ProjectTango.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ProjectTango/Pods-ProjectTango.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7A4F07DD050C461D780E2F76</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ProjectTango/Pods-ProjectTango-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>7FD76D06EDA04E50072436F0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>A0492990DC45681EA105F45F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ProjectTango.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ProjectTango/Pods-ProjectTango.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CDA3C096E3896B9C9988BCBA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>18D184CAD791246C094A0860</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D4B55BCD460267875851CF68</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6D7B00680A30087D79EE4CCD</string>
-				<string>A0492990DC45681EA105F45F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC87C8F91DE392E1009E7338</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>36362E4B1DE94DB30098C572</string>
-				<string>FC87C9041DE392E1009E7338</string>
-				<string>FC87C9191DE392E1009E7338</string>
-				<string>FC87C9241DE392E1009E7338</string>
-				<string>FC87C9031DE392E1009E7338</string>
-				<string>D4B55BCD460267875851CF68</string>
-				<string>06F33BCB4F6329DD819CACC9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC87C8FA1DE392E1009E7338</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0810</string>
-				<key>LastUpgradeCheck</key>
-				<string>0810</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Yale People</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>FC87C9011DE392E1009E7338</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.1</string>
-						<key>DevelopmentTeam</key>
-						<string>4XVK73N2VS</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-					</dict>
-					<key>FC87C9151DE392E1009E7338</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.1</string>
-						<key>DevelopmentTeam</key>
-						<string>4XVK73N2VS</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>FC87C9011DE392E1009E7338</string>
-					</dict>
-					<key>FC87C9201DE392E1009E7338</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.1</string>
-						<key>DevelopmentTeam</key>
-						<string>4XVK73N2VS</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>FC87C9011DE392E1009E7338</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>FC87C8FD1DE392E1009E7338</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>FC87C8F91DE392E1009E7338</string>
-			<key>productRefGroup</key>
-			<string>FC87C9031DE392E1009E7338</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>FC87C9011DE392E1009E7338</string>
-				<string>FC87C9151DE392E1009E7338</string>
-				<string>FC87C9201DE392E1009E7338</string>
-			</array>
-		</dict>
-		<key>FC87C8FD1DE392E1009E7338</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FC87C9281DE392E1009E7338</string>
-				<string>FC87C9291DE392E1009E7338</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FC87C8FE1DE392E1009E7338</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FC87C9081DE392E1009E7338</string>
-				<string>36362E4A1DE949450098C572</string>
-				<string>FC87C9061DE392E1009E7338</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FC87C8FF1DE392E1009E7338</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>CDA3C096E3896B9C9988BCBA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FC87C9001DE392E1009E7338</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FC87C9101DE392E1009E7338</string>
-				<string>36362E4C1DE94DB30098C572</string>
-				<string>FC87C90D1DE392E1009E7338</string>
-				<string>FC87C90B1DE392E1009E7338</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FC87C9011DE392E1009E7338</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FC87C92A1DE392E1009E7338</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7FD76D06EDA04E50072436F0</string>
-				<string>FC87C8FE1DE392E1009E7338</string>
-				<string>FC87C8FF1DE392E1009E7338</string>
-				<string>FC87C9001DE392E1009E7338</string>
-				<string>7A4F07DD050C461D780E2F76</string>
-				<string>5D698054F2FFA794DE238ED7</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ProjectTango</string>
-			<key>productName</key>
-			<string>ProjectTango</string>
-			<key>productReference</key>
-			<string>FC87C9021DE392E1009E7338</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>FC87C9021DE392E1009E7338</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ProjectTango.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FC87C9031DE392E1009E7338</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FC87C9021DE392E1009E7338</string>
-				<string>FC87C9161DE392E1009E7338</string>
-				<string>FC87C9211DE392E1009E7338</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC87C9041DE392E1009E7338</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FC87C9051DE392E1009E7338</string>
-				<string>FC87C9071DE392E1009E7338</string>
-				<string>FC87C9091DE392E1009E7338</string>
-				<string>36362E491DE949450098C572</string>
-				<string>FC87C90C1DE392E1009E7338</string>
-				<string>FC87C90E1DE392E1009E7338</string>
-				<string>FC87C9111DE392E1009E7338</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ProjectTango</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC87C9051DE392E1009E7338</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC87C9061DE392E1009E7338</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC87C9051DE392E1009E7338</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FC87C9071DE392E1009E7338</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC87C9081DE392E1009E7338</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC87C9071DE392E1009E7338</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FC87C9091DE392E1009E7338</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FC87C90A1DE392E1009E7338</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC87C90A1DE392E1009E7338</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC87C90B1DE392E1009E7338</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC87C9091DE392E1009E7338</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FC87C90C1DE392E1009E7338</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC87C90D1DE392E1009E7338</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC87C90C1DE392E1009E7338</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FC87C90E1DE392E1009E7338</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FC87C90F1DE392E1009E7338</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC87C90F1DE392E1009E7338</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC87C9101DE392E1009E7338</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC87C90E1DE392E1009E7338</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FC87C9111DE392E1009E7338</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC87C9121DE392E1009E7338</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FC87C91B1DE392E1009E7338</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FC87C9131DE392E1009E7338</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FC87C9141DE392E1009E7338</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FC87C9151DE392E1009E7338</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FC87C92D1DE392E1009E7338</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FC87C9121DE392E1009E7338</string>
-				<string>FC87C9131DE392E1009E7338</string>
-				<string>FC87C9141DE392E1009E7338</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>FC87C9181DE392E1009E7338</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ProjectTangoTests</string>
-			<key>productName</key>
-			<string>ProjectTangoTests</string>
-			<key>productReference</key>
-			<string>FC87C9161DE392E1009E7338</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>FC87C9161DE392E1009E7338</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ProjectTangoTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FC87C9171DE392E1009E7338</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>FC87C8FA1DE392E1009E7338</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>FC87C9011DE392E1009E7338</string>
-			<key>remoteInfo</key>
-			<string>ProjectTango</string>
-		</dict>
-		<key>FC87C9181DE392E1009E7338</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>FC87C9011DE392E1009E7338</string>
-			<key>targetProxy</key>
-			<string>FC87C9171DE392E1009E7338</string>
-		</dict>
-		<key>FC87C9191DE392E1009E7338</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FC87C91A1DE392E1009E7338</string>
-				<string>FC87C91C1DE392E1009E7338</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ProjectTangoTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC87C91A1DE392E1009E7338</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ProjectTangoTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC87C91B1DE392E1009E7338</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC87C91A1DE392E1009E7338</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FC87C91C1DE392E1009E7338</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC87C91D1DE392E1009E7338</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FC87C9261DE392E1009E7338</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FC87C91E1DE392E1009E7338</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FC87C91F1DE392E1009E7338</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FC87C9201DE392E1009E7338</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FC87C9301DE392E1009E7338</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FC87C91D1DE392E1009E7338</string>
-				<string>FC87C91E1DE392E1009E7338</string>
-				<string>FC87C91F1DE392E1009E7338</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>FC87C9231DE392E1009E7338</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ProjectTangoUITests</string>
-			<key>productName</key>
-			<string>ProjectTangoUITests</string>
-			<key>productReference</key>
-			<string>FC87C9211DE392E1009E7338</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>FC87C9211DE392E1009E7338</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ProjectTangoUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FC87C9221DE392E1009E7338</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>FC87C8FA1DE392E1009E7338</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>FC87C9011DE392E1009E7338</string>
-			<key>remoteInfo</key>
-			<string>ProjectTango</string>
-		</dict>
-		<key>FC87C9231DE392E1009E7338</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>FC87C9011DE392E1009E7338</string>
-			<key>targetProxy</key>
-			<string>FC87C9221DE392E1009E7338</string>
-		</dict>
-		<key>FC87C9241DE392E1009E7338</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FC87C9251DE392E1009E7338</string>
-				<string>FC87C9271DE392E1009E7338</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ProjectTangoUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC87C9251DE392E1009E7338</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ProjectTangoUITests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC87C9261DE392E1009E7338</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC87C9251DE392E1009E7338</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FC87C9271DE392E1009E7338</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC87C9281DE392E1009E7338</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_ACTIVE_COMPILATION_CONDITIONS</key>
-				<string>DEBUG</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FC87C9291DE392E1009E7338</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Owholemodule</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FC87C92A1DE392E1009E7338</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FC87C92B1DE392E1009E7338</string>
-				<string>FC87C92C1DE392E1009E7338</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FC87C92B1DE392E1009E7338</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>6D7B00680A30087D79EE4CCD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>4XVK73N2VS</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ProjectTango/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.digprod.ProjectTango</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FC87C92C1DE392E1009E7338</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A0492990DC45681EA105F45F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>4XVK73N2VS</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ProjectTango/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.digprod.ProjectTango</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FC87C92D1DE392E1009E7338</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FC87C92E1DE392E1009E7338</string>
-				<string>FC87C92F1DE392E1009E7338</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FC87C92E1DE392E1009E7338</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>4XVK73N2VS</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ProjectTangoTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.digprod.ProjectTangoTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/ProjectTango.app/ProjectTango</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FC87C92F1DE392E1009E7338</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>4XVK73N2VS</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ProjectTangoTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.digprod.ProjectTangoTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/ProjectTango.app/ProjectTango</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FC87C9301DE392E1009E7338</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FC87C9311DE392E1009E7338</string>
-				<string>FC87C9321DE392E1009E7338</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FC87C9311DE392E1009E7338</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>4XVK73N2VS</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ProjectTangoUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.digprod.ProjectTangoUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>ProjectTango</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FC87C9321DE392E1009E7338</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>4XVK73N2VS</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ProjectTangoUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.digprod.ProjectTangoUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>ProjectTango</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>FC87C8FA1DE392E1009E7338</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36362E4A1DE949450098C572 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36362E491DE949450098C572 /* loginVC.swift */; };
+		36362E4C1DE94DB30098C572 /* Graphics in Resources */ = {isa = PBXBuildFile; fileRef = 36362E4B1DE94DB30098C572 /* Graphics */; };
+		CDA3C096E3896B9C9988BCBA /* Pods_ProjectTango.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D184CAD791246C094A0860 /* Pods_ProjectTango.framework */; };
+		FC87C9061DE392E1009E7338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC87C9051DE392E1009E7338 /* AppDelegate.swift */; };
+		FC87C9081DE392E1009E7338 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC87C9071DE392E1009E7338 /* ViewController.swift */; };
+		FC87C90B1DE392E1009E7338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC87C9091DE392E1009E7338 /* Main.storyboard */; };
+		FC87C90D1DE392E1009E7338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC87C90C1DE392E1009E7338 /* Assets.xcassets */; };
+		FC87C9101DE392E1009E7338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC87C90E1DE392E1009E7338 /* LaunchScreen.storyboard */; };
+		FC87C91B1DE392E1009E7338 /* ProjectTangoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC87C91A1DE392E1009E7338 /* ProjectTangoTests.swift */; };
+		FC87C9261DE392E1009E7338 /* ProjectTangoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC87C9251DE392E1009E7338 /* ProjectTangoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC87C9171DE392E1009E7338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC87C8FA1DE392E1009E7338 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC87C9011DE392E1009E7338;
+			remoteInfo = ProjectTango;
+		};
+		FC87C9221DE392E1009E7338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC87C8FA1DE392E1009E7338 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC87C9011DE392E1009E7338;
+			remoteInfo = ProjectTango;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18D184CAD791246C094A0860 /* Pods_ProjectTango.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectTango.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36362E491DE949450098C572 /* loginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
+		36362E4B1DE94DB30098C572 /* Graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Graphics; path = ProjectTango/Graphics; sourceTree = "<group>"; };
+		6D7B00680A30087D79EE4CCD /* Pods-ProjectTango.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTango.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTango/Pods-ProjectTango.debug.xcconfig"; sourceTree = "<group>"; };
+		A0492990DC45681EA105F45F /* Pods-ProjectTango.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTango.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTango/Pods-ProjectTango.release.xcconfig"; sourceTree = "<group>"; };
+		FC87C9021DE392E1009E7338 /* ProjectTango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectTango.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC87C9051DE392E1009E7338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC87C9071DE392E1009E7338 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC87C90A1DE392E1009E7338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC87C90C1DE392E1009E7338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC87C90F1DE392E1009E7338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC87C9111DE392E1009E7338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC87C9161DE392E1009E7338 /* ProjectTangoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectTangoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC87C91A1DE392E1009E7338 /* ProjectTangoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTangoTests.swift; sourceTree = "<group>"; };
+		FC87C91C1DE392E1009E7338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC87C9211DE392E1009E7338 /* ProjectTangoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectTangoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC87C9251DE392E1009E7338 /* ProjectTangoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTangoUITests.swift; sourceTree = "<group>"; };
+		FC87C9271DE392E1009E7338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC87C8FF1DE392E1009E7338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA3C096E3896B9C9988BCBA /* Pods_ProjectTango.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC87C9131DE392E1009E7338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC87C91E1DE392E1009E7338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06F33BCB4F6329DD819CACC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18D184CAD791246C094A0860 /* Pods_ProjectTango.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4B55BCD460267875851CF68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D7B00680A30087D79EE4CCD /* Pods-ProjectTango.debug.xcconfig */,
+				A0492990DC45681EA105F45F /* Pods-ProjectTango.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC87C8F91DE392E1009E7338 = {
+			isa = PBXGroup;
+			children = (
+				36362E4B1DE94DB30098C572 /* Graphics */,
+				FC87C9041DE392E1009E7338 /* ProjectTango */,
+				FC87C9191DE392E1009E7338 /* ProjectTangoTests */,
+				FC87C9241DE392E1009E7338 /* ProjectTangoUITests */,
+				FC87C9031DE392E1009E7338 /* Products */,
+				D4B55BCD460267875851CF68 /* Pods */,
+				06F33BCB4F6329DD819CACC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC87C9031DE392E1009E7338 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC87C9021DE392E1009E7338 /* ProjectTango.app */,
+				FC87C9161DE392E1009E7338 /* ProjectTangoTests.xctest */,
+				FC87C9211DE392E1009E7338 /* ProjectTangoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC87C9041DE392E1009E7338 /* ProjectTango */ = {
+			isa = PBXGroup;
+			children = (
+				FC87C9051DE392E1009E7338 /* AppDelegate.swift */,
+				FC87C9071DE392E1009E7338 /* ViewController.swift */,
+				FC87C9091DE392E1009E7338 /* Main.storyboard */,
+				36362E491DE949450098C572 /* loginVC.swift */,
+				FC87C90C1DE392E1009E7338 /* Assets.xcassets */,
+				FC87C90E1DE392E1009E7338 /* LaunchScreen.storyboard */,
+				FC87C9111DE392E1009E7338 /* Info.plist */,
+			);
+			path = ProjectTango;
+			sourceTree = "<group>";
+		};
+		FC87C9191DE392E1009E7338 /* ProjectTangoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC87C91A1DE392E1009E7338 /* ProjectTangoTests.swift */,
+				FC87C91C1DE392E1009E7338 /* Info.plist */,
+			);
+			path = ProjectTangoTests;
+			sourceTree = "<group>";
+		};
+		FC87C9241DE392E1009E7338 /* ProjectTangoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC87C9251DE392E1009E7338 /* ProjectTangoUITests.swift */,
+				FC87C9271DE392E1009E7338 /* Info.plist */,
+			);
+			path = ProjectTangoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC87C9011DE392E1009E7338 /* ProjectTango */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC87C92A1DE392E1009E7338 /* Build configuration list for PBXNativeTarget "ProjectTango" */;
+			buildPhases = (
+				7FD76D06EDA04E50072436F0 /* [CP] Check Pods Manifest.lock */,
+				FC87C8FE1DE392E1009E7338 /* Sources */,
+				FC87C8FF1DE392E1009E7338 /* Frameworks */,
+				FC87C9001DE392E1009E7338 /* Resources */,
+				7A4F07DD050C461D780E2F76 /* [CP] Embed Pods Frameworks */,
+				5D698054F2FFA794DE238ED7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectTango;
+			productName = ProjectTango;
+			productReference = FC87C9021DE392E1009E7338 /* ProjectTango.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC87C9151DE392E1009E7338 /* ProjectTangoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC87C92D1DE392E1009E7338 /* Build configuration list for PBXNativeTarget "ProjectTangoTests" */;
+			buildPhases = (
+				FC87C9121DE392E1009E7338 /* Sources */,
+				FC87C9131DE392E1009E7338 /* Frameworks */,
+				FC87C9141DE392E1009E7338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC87C9181DE392E1009E7338 /* PBXTargetDependency */,
+			);
+			name = ProjectTangoTests;
+			productName = ProjectTangoTests;
+			productReference = FC87C9161DE392E1009E7338 /* ProjectTangoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC87C9201DE392E1009E7338 /* ProjectTangoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC87C9301DE392E1009E7338 /* Build configuration list for PBXNativeTarget "ProjectTangoUITests" */;
+			buildPhases = (
+				FC87C91D1DE392E1009E7338 /* Sources */,
+				FC87C91E1DE392E1009E7338 /* Frameworks */,
+				FC87C91F1DE392E1009E7338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC87C9231DE392E1009E7338 /* PBXTargetDependency */,
+			);
+			name = ProjectTangoUITests;
+			productName = ProjectTangoUITests;
+			productReference = FC87C9211DE392E1009E7338 /* ProjectTangoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC87C8FA1DE392E1009E7338 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Yale People";
+				TargetAttributes = {
+					FC87C9011DE392E1009E7338 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4XVK73N2VS;
+						ProvisioningStyle = Automatic;
+					};
+					FC87C9151DE392E1009E7338 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4XVK73N2VS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC87C9011DE392E1009E7338;
+					};
+					FC87C9201DE392E1009E7338 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4XVK73N2VS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC87C9011DE392E1009E7338;
+					};
+				};
+			};
+			buildConfigurationList = FC87C8FD1DE392E1009E7338 /* Build configuration list for PBXProject "ProjectTango" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC87C8F91DE392E1009E7338;
+			productRefGroup = FC87C9031DE392E1009E7338 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC87C9011DE392E1009E7338 /* ProjectTango */,
+				FC87C9151DE392E1009E7338 /* ProjectTangoTests */,
+				FC87C9201DE392E1009E7338 /* ProjectTangoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC87C9001DE392E1009E7338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC87C9101DE392E1009E7338 /* LaunchScreen.storyboard in Resources */,
+				36362E4C1DE94DB30098C572 /* Graphics in Resources */,
+				FC87C90D1DE392E1009E7338 /* Assets.xcassets in Resources */,
+				FC87C90B1DE392E1009E7338 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC87C9141DE392E1009E7338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC87C91F1DE392E1009E7338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D698054F2FFA794DE238ED7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectTango/Pods-ProjectTango-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A4F07DD050C461D780E2F76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectTango/Pods-ProjectTango-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FD76D06EDA04E50072436F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC87C8FE1DE392E1009E7338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC87C9081DE392E1009E7338 /* ViewController.swift in Sources */,
+				36362E4A1DE949450098C572 /* loginVC.swift in Sources */,
+				FC87C9061DE392E1009E7338 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC87C9121DE392E1009E7338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC87C91B1DE392E1009E7338 /* ProjectTangoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC87C91D1DE392E1009E7338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC87C9261DE392E1009E7338 /* ProjectTangoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC87C9181DE392E1009E7338 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC87C9011DE392E1009E7338 /* ProjectTango */;
+			targetProxy = FC87C9171DE392E1009E7338 /* PBXContainerItemProxy */;
+		};
+		FC87C9231DE392E1009E7338 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC87C9011DE392E1009E7338 /* ProjectTango */;
+			targetProxy = FC87C9221DE392E1009E7338 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC87C9091DE392E1009E7338 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC87C90A1DE392E1009E7338 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC87C90E1DE392E1009E7338 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC87C90F1DE392E1009E7338 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC87C9281DE392E1009E7338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC87C9291DE392E1009E7338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC87C92B1DE392E1009E7338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D7B00680A30087D79EE4CCD /* Pods-ProjectTango.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4XVK73N2VS;
+				INFOPLIST_FILE = ProjectTango/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digprod.ProjectTango;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FC87C92C1DE392E1009E7338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0492990DC45681EA105F45F /* Pods-ProjectTango.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4XVK73N2VS;
+				INFOPLIST_FILE = ProjectTango/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digprod.ProjectTango;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FC87C92E1DE392E1009E7338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4XVK73N2VS;
+				INFOPLIST_FILE = ProjectTangoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digprod.ProjectTangoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectTango.app/ProjectTango";
+			};
+			name = Debug;
+		};
+		FC87C92F1DE392E1009E7338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4XVK73N2VS;
+				INFOPLIST_FILE = ProjectTangoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digprod.ProjectTangoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectTango.app/ProjectTango";
+			};
+			name = Release;
+		};
+		FC87C9311DE392E1009E7338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4XVK73N2VS;
+				INFOPLIST_FILE = ProjectTangoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digprod.ProjectTangoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ProjectTango;
+			};
+			name = Debug;
+		};
+		FC87C9321DE392E1009E7338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4XVK73N2VS;
+				INFOPLIST_FILE = ProjectTangoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digprod.ProjectTangoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ProjectTango;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC87C8FD1DE392E1009E7338 /* Build configuration list for PBXProject "ProjectTango" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC87C9281DE392E1009E7338 /* Debug */,
+				FC87C9291DE392E1009E7338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC87C92A1DE392E1009E7338 /* Build configuration list for PBXNativeTarget "ProjectTango" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC87C92B1DE392E1009E7338 /* Debug */,
+				FC87C92C1DE392E1009E7338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC87C92D1DE392E1009E7338 /* Build configuration list for PBXNativeTarget "ProjectTangoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC87C92E1DE392E1009E7338 /* Debug */,
+				FC87C92F1DE392E1009E7338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC87C9301DE392E1009E7338 /* Build configuration list for PBXNativeTarget "ProjectTangoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC87C9311DE392E1009E7338 /* Debug */,
+				FC87C9321DE392E1009E7338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC87C8FA1DE392E1009E7338 /* Project object */;
+}
