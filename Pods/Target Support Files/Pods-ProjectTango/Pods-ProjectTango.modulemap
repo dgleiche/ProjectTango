@@ -1,0 +1,6 @@
+framework module Pods_ProjectTango {
+  umbrella header "Pods-ProjectTango-umbrella.h"
+
+  export *
+  module * { export * }
+}
